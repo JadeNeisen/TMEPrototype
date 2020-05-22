@@ -1,0 +1,23 @@
+// Base Styles
+//Landing Page
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/TMEBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+img{
+    position: absolute;
+    bottom: 35px;
+    left: 200px;
+    transition: all .5s;
+}
+img:hover {-webkit-filter: brightness(200%); 
+}
