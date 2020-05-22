@@ -23,6 +23,7 @@ img {
 }
 
 img:hover {
-  -webkit-filter: brightness(200%);
+  filter: brightness(180%);
+  -webkit-filter: brightness(180%);
 }
 /*# sourceMappingURL=Style.css.map */

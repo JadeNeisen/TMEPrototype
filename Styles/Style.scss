@@ -21,5 +21,6 @@ img{
     transition: all .5s;
 }
 img:hover {
-    -webkit-filter: brightness(200%); 
+    filter: brightness(180%);
+   -webkit-filter: brightness(180%); 
 }
