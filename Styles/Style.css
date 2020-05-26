@@ -15,8 +15,8 @@ body {
 
 img {
   position: absolute;
-  bottom: 30px;
-  left: 140px;
+  bottom: 25px;
+  left: 145px;
   width: 35%;
   -webkit-transition: all .5s;
   transition: all .5s;

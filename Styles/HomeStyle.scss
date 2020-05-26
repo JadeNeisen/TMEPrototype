@@ -1,0 +1,40 @@
+// Home Page
+// Base Styles
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../Images/HomePageBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    position: relative;
+}
+.members{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    top: -110px;
+    img{
+        width: 100%;
+        padding: 5%;
+    }
+
+    img{
+        transition: all .5s;
+    }
+    img:hover{
+        filter: brightness(180%);
+       -webkit-filter: brightness(180%); 
+    }
+}
