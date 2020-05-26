@@ -15,8 +15,10 @@ body{
     position: relative;
 }
 .members{
+    position: relative;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .nav{
     display: flex;
@@ -24,17 +26,23 @@ body{
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: -110px;
+    top: -70px;
+    height: 150px;
     img{
         width: 100%;
         padding: 5%;
     }
+}
 
-    img{
-        transition: all .5s;
-    }
-    img:hover{
-        filter: brightness(180%);
-       -webkit-filter: brightness(180%); 
-    }
+
+.TMElogo{
+    position: relative;
+    bottom: -100px;
+}
+img{
+    transition: all .5s;
+}
+img:hover{
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%); 
 }

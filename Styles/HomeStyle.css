@@ -15,12 +15,16 @@ body {
 }
 
 .members {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav {
@@ -38,7 +42,8 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  top: -110px;
+  top: -70px;
+  height: 150px;
 }
 
 .nav img {
@@ -46,12 +51,17 @@ body {
   padding: 5%;
 }
 
-.nav img {
+.TMElogo {
+  position: relative;
+  bottom: -100px;
+}
+
+img {
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-.nav img:hover {
+img:hover {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
 }
