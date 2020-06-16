@@ -19,6 +19,14 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    img{
+        transition: all .5s;
+        width: 80%;
+    }
+    img:hover{
+        filter: brightness(180%);
+        -webkit-filter: brightness(180%);
+    }
 }
 .nav{
     display: flex;
@@ -26,23 +34,29 @@ body{
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: -70px;
-    height: 150px;
+    top: -80px;
+    height: 130px;
     img{
         width: 100%;
         padding: 5%;
+        transition: all .5s;
+    }
+    img:hover{
+        filter: brightness(180%);
+        -webkit-filter: brightness(180%); 
     }
 }
 
 
 .TMElogo{
     position: relative;
-    bottom: -100px;
-}
-img{
-    transition: all .5s;
-}
-img:hover{
-    filter: brightness(180%);
-    -webkit-filter: brightness(180%); 
+    bottom: -60px;
+    img{
+        width: 50%;
+        transition: all .5s;
+    }
+    img:hover{
+        filter: brightness(180%);
+        -webkit-filter: brightness(180%); 
+    }
 }

@@ -27,6 +27,17 @@ body {
           align-items: center;
 }
 
+.members img {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  width: 80%;
+}
+
+.members img:hover {
+  filter: brightness(180%);
+  -webkit-filter: brightness(180%);
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,26 +53,34 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  top: -70px;
-  height: 150px;
+  top: -80px;
+  height: 130px;
 }
 
 .nav img {
   width: 100%;
   padding: 5%;
-}
-
-.TMElogo {
-  position: relative;
-  bottom: -100px;
-}
-
-img {
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 
-img:hover {
+.nav img:hover {
+  filter: brightness(180%);
+  -webkit-filter: brightness(180%);
+}
+
+.TMElogo {
+  position: relative;
+  bottom: -60px;
+}
+
+.TMElogo img {
+  width: 50%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.TMElogo img:hover {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
 }
