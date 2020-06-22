@@ -23,6 +23,7 @@ body{
 .nav2{
     float: right;
     margin-right: 2%;
+    margin-top: -5%;
     clear: both;
     cursor: pointer;
 }
@@ -32,7 +33,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     right: 200px;
-    top: 365px;
+    top: 288px;
     transition: all .5s ease-in-out;
     transform: translateX(80px);
     ul{
@@ -53,7 +54,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     right: 200px;
-    top: 365px;
+    top: 288px;
     transition: all .5s ease-in-out;
     transform: translateX(-80px);
     ul{
@@ -73,4 +74,45 @@ img{
 img:hover, img:focus{
         filter: brightness(180%);
         -webkit-filter: brightness(180%);
+}
+.linear{
+    position: relative;
+    top: 5px;
+    left: 5%;
+    width: 90%;
+    height: 360px;
+    background-image: linear-gradient(to right, red, rgb(185, 0, 185), blue, rgb(0, 199, 0));
+}
+.panel{
+    position: absolute;
+    top: 1%;
+    left: .5%;
+    background-color: rgb(197, 197, 197);
+    width: 99%;
+    height: 350px;
+    h1{
+        margin-left: 2%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 300%;
+    }
+    p{
+        margin-top: 1%;
+        margin-left: 2%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        width: 90%;
+        font-size: 150%;
+    }
+    a{
+        margin-left: 2%;
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        text-shadow: .01em .01em .20em black;
+        font-size: 140%;
+        transition: all .4s;
+    }
+    a:hover, a:focus{
+        text-shadow: .01em .01em .20em rgb(206, 3, 3);
+        color: black;
+    }
 }

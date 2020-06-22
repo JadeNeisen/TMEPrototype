@@ -27,6 +27,7 @@ body {
 .nav2 {
   float: right;
   margin-right: 2%;
+  margin-top: -5%;
   clear: both;
   cursor: pointer;
 }
@@ -37,7 +38,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 365px;
+  top: 288px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(80px);
@@ -69,7 +70,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 365px;
+  top: 288px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-80px);
@@ -103,5 +104,54 @@ img {
 img:hover, img:focus {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
+}
+
+.linear {
+  position: relative;
+  top: 5px;
+  left: 5%;
+  width: 90%;
+  height: 360px;
+  background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(#b900b9), color-stop(blue), to(#00c700));
+  background-image: linear-gradient(to right, red, #b900b9, blue, #00c700);
+}
+
+.panel {
+  position: absolute;
+  top: 1%;
+  left: .5%;
+  background-color: #c5c5c5;
+  width: 99%;
+  height: 350px;
+}
+
+.panel h1 {
+  margin-left: 2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 300%;
+}
+
+.panel p {
+  margin-top: 1%;
+  margin-left: 2%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 90%;
+  font-size: 150%;
+}
+
+.panel a {
+  margin-left: 2%;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: .01em .01em .20em black;
+  font-size: 140%;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.panel a:hover, .panel a:focus {
+  text-shadow: 0.01em 0.01em 0.2em #ce0303;
+  color: black;
 }
 /*# sourceMappingURL=NewsStyle.css.map */
