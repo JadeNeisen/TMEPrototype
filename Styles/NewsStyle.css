@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +28,7 @@ body {
 .nav2 {
   float: right;
   margin-right: 2%;
-  margin-top: -5%;
+  margin-top: -3%;
   clear: both;
   cursor: pointer;
 }
@@ -38,7 +39,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 288px;
+  top: 300px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(80px);
@@ -70,7 +71,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 288px;
+  top: 300px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-80px);
@@ -108,7 +109,7 @@ img:hover, img:focus {
 
 .linear {
   position: relative;
-  top: 5px;
+  top: 30px;
   left: 5%;
   width: 90%;
   height: 360px;
@@ -118,7 +119,7 @@ img:hover, img:focus {
 
 .panel {
   position: absolute;
-  top: 1%;
+  top: 1.5%;
   left: .5%;
   background-color: #c5c5c5;
   width: 99%;
