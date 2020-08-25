@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("../Images/HomePageBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    position: relative;
+  }
+  
+  .members {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .members img {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    width: 80%;
+  }
+  
+  .members img:hover {
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%);
+  }
+  
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    top: -80px;
+    height: 130px;
+  }
+  
+  .nav img {
+    width: 100%;
+    padding: 5%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .nav img:hover {
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%);
+  }
+  
+  .TMElogo {
+    position: relative;
+    bottom: -60px;
+  }
+  
+  .TMElogo img {
+    width: 50%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  .TMElogo img:hover {
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%);
+  }
+  /*# sourceMappingURL=HomeStyle.css.map */

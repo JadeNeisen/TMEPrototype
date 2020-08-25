@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../Images/StoreBackground.png");
+  background-image: url("../Images/TMPodcast.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -120,39 +120,4 @@ img:hover, img:focus {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
 }
-.linear {
-  position: relative;
-  top: 5px;
-  left: 5%;
-  width: 90%;
-  height: 360px;
-  background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(#b900b9), color-stop(blue), to(#00c700));
-  background-image: linear-gradient(to right, red, #b900b9, blue, #00c700);
-}
-.panel {
-  position: absolute;
-  top: 1%;
-  left: .5%;
-  background-color: #c5c5c5;
-  width: 99%;
-  height: 350px;
-}
-.panel img{
-  width: 50%;
-  height: 250px;
-}
-.panel section{
-  width: 40%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 5%;
-}
-.panel h1{
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 400%;
-  text-shadow: .01em .01em .09em rgb(0, 128, 0);
-}
-/*# sourceMappingURL=StoreStyle.css.map */
+/*# sourceMappingURL=PodcastStyle.css.map */

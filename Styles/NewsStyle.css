@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,18 +13,20 @@ body {
   background-size: 100vw 100vh;
   position: relative;
 }
+
 .members {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
 .nav1 {
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -55,7 +57,7 @@ body {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(80px);
-          transform: translateX(80px);
+  transform: translateX(80px);
 }
 
 .menu ul {
@@ -64,11 +66,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style-type: none;
   padding: 1%;
 }
@@ -87,7 +89,7 @@ body {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-80px);
-          transform: translateX(-80px);
+  transform: translateX(-80px);
 }
 
 .menu.active ul {
@@ -96,11 +98,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style-type: none;
   padding: 1%;
 }
@@ -118,6 +120,7 @@ img:hover, img:focus {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
 }
+/*# sourceMappingURL=PodcastStyle.css.map */
 
 .linear {
   position: relative;
@@ -141,8 +144,8 @@ img:hover, img:focus {
 .panel h1 {
   margin-left: 2%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 300%;
-  text-shadow: .01em .01em .09em rgb(0, 68, 0);
+  font-size: 400%;
+  text-shadow: .01em .01em .09em rgb(0, 128, 0);
 }
 
 .panel p {
@@ -157,7 +160,7 @@ img:hover, img:focus {
   margin-left: 2%;
   text-decoration: none;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white;
+  color: rgb(185, 2, 2);
   text-shadow: .01em .01em .20em black;
   font-size: 140%;
   -webkit-transition: all .4s;
