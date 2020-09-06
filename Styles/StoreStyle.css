@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -32,17 +32,17 @@ body {
   width: -moz-max-content;
   width: max-content;
   position: relative;
-  top: -110px;
+  top: -20vh;
 }
 
 .nav1 img {
-  width: 77%;
+  width: 73%;
 }
 
 .nav2 {
   float: right;
   margin-right: 2%;
-  margin-top: -7%;
+  margin-top: -15%;
   clear: both;
   cursor: pointer;
 }
@@ -53,11 +53,11 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 375px;
+  top: 278px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(80px);
-  transform: translateX(80px);
+          transform: translateX(80px);
 }
 
 .menu ul {
@@ -66,11 +66,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style-type: none;
   padding: 1%;
 }
@@ -85,11 +85,11 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   right: 200px;
-  top: 375px;
+  top: 278px;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   -webkit-transform: translateX(-80px);
-  transform: translateX(-80px);
+          transform: translateX(-80px);
 }
 
 .menu.active ul {
@@ -98,11 +98,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style-type: none;
   padding: 1%;
 }
@@ -119,16 +119,19 @@ img {
 img:hover, img:focus {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
+  cursor: pointer;
 }
+
 .linear {
   position: relative;
-  top: 5px;
+  top: -15vh;
   left: 5%;
   width: 90%;
   height: 360px;
   background-image: -webkit-gradient(linear, left top, right top, from(red), color-stop(#b900b9), color-stop(blue), to(#00c700));
   background-image: linear-gradient(to right, red, #b900b9, blue, #00c700);
 }
+
 .panel {
   position: absolute;
   top: 1%;
@@ -136,23 +139,31 @@ img:hover, img:focus {
   background-color: #c5c5c5;
   width: 99%;
   height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.panel img{
-  width: 50%;
-  height: 250px;
-}
-.panel section{
+
+.panel section {
   width: 40%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-left: 5%;
+  margin-left: 12%;
 }
-.panel h1{
-  text-align: center;
+
+.panel section img {
+  width: 65%;
+  height: 290px;
+}
+
+.panel section h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 400%;
-  text-shadow: .01em .01em .09em rgb(0, 128, 0);
+  font-size: 300%;
+  text-shadow: 0.01em 0.01em 0.09em #099109;
+  margin-left: 13%;
 }
 /*# sourceMappingURL=StoreStyle.css.map */
