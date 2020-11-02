@@ -14,27 +14,12 @@ body{
     background-size: 100vw 100vh;
     position: relative;
 }
-.members{
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    img{
-        transition: all .5s;
-        width: 80%;
-    }
-    img:hover{
-        filter: brightness(180%);
-        -webkit-filter: brightness(180%);
-    }
-}
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     position: relative;
-    top: -80px;
     height: 130px;
     img{
         width: 100%;
@@ -50,7 +35,7 @@ body{
 
 .TMElogo{
     position: relative;
-    bottom: -60px;
+    top: 30vh;
     img{
         width: 50%;
         transition: all .5s;
@@ -58,5 +43,12 @@ body{
     img:hover{
         filter: brightness(180%);
         -webkit-filter: brightness(180%); 
+    }
+    .featured{
+        img{
+            display: flex;
+            justify-content: right;
+            width: 60%;
+        }
     }
 }

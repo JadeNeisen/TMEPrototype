@@ -1,10 +1,8 @@
-// NewsPage
-// BaseStyles
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
     background-image: url("../Images/BrickBackdrop.png");
@@ -20,7 +18,7 @@ body{
         width: 77%;
     }
 }
-.NewsTitle img{
+.ResourcesTitle img{
     position: absolute;
     top: 6%;
     right: 2%;
@@ -75,6 +73,11 @@ body{
         }
     }
 }
+.commingsoon img{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
 img{
     transition: all .3s;
 }
@@ -90,6 +93,10 @@ img:hover, img:focus{
     background-image: linear-gradient(to right, red, rgb(185, 0, 185), blue, rgb(0, 199, 0));
 }
 .panel{
+    display: inline-flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     position: absolute;
     top: 1%;
     left: .5%;
@@ -97,10 +104,11 @@ img:hover, img:focus{
     width: 99%;
     height: 350px;
     h1{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 800%;
+        font-variant: small-caps;
+        font-size: 400%;
         text-shadow: .01em .01em .09em rgb(8, 179, 8);
-        text-align: center;
-        padding: 3%;
+    }
+    section{
+    width: 30%;
     }
 }

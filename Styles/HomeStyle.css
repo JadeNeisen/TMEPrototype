@@ -14,37 +14,13 @@ body {
   position: relative;
 }
 
-.members {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.members img {
-  -webkit-transition: all .5s;
-  transition: all .5s;
-  width: 80%;
-}
-
-.members img:hover {
-  filter: brightness(180%);
-  -webkit-filter: brightness(180%);
-}
-
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -53,7 +29,6 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   position: relative;
-  top: -80px;
   height: 130px;
 }
 
@@ -71,7 +46,7 @@ body {
 
 .TMElogo {
   position: relative;
-  bottom: -60px;
+  top: 30vh;
 }
 
 .TMElogo img {
@@ -83,5 +58,15 @@ body {
 .TMElogo img:hover {
   filter: brightness(180%);
   -webkit-filter: brightness(180%);
+}
+
+.TMElogo .featured img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 60%;
 }
 /*# sourceMappingURL=HomeStyle.css.map */

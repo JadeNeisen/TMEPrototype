@@ -6,25 +6,11 @@
 }
 
 body {
-  background-image: url("../Images/TMEAboutBackground.png");
-  background-repeat: no-repeat;
+  background-image: url("../Images/BrickBackdrop.png");
+  background-repeat: repeat-y;
   background-position: center;
-  background-attachment: fixed;
   background-size: 100vw 100vh;
   position: relative;
-}
-
-.members {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .nav1 {
@@ -32,17 +18,23 @@ body {
   width: -moz-max-content;
   width: max-content;
   position: relative;
-  top: -20vh;
 }
 
 .nav1 img {
-  width: 73%;
+  width: 77%;
+}
+
+.AboutTitle img {
+  position: absolute;
+  top: 6%;
+  right: 2%;
+  width: 53%;
 }
 
 .nav2 {
   float: right;
   margin-right: 2%;
-  margin-top: -15%;
+  margin-top: -6%;
   clear: both;
   cursor: pointer;
 }
@@ -123,7 +115,6 @@ img:hover, img:focus {
 
 .linear {
   position: relative;
-  top: -15vh;
   left: 5%;
   width: 90%;
   height: 360px;
