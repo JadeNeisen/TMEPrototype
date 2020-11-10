@@ -3,3 +3,4 @@
 [0609/213100.572:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
 [0609/213100.572:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
 [1102/031046.655:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1110/004417.407:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

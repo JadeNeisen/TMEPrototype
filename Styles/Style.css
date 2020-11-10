@@ -13,17 +13,88 @@ body {
   background-size: 100vw 100vh;
 }
 
-img {
-  position: absolute;
-  bottom: 25px;
-  left: 145px;
-  width: 35%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+@media screen and (max-width: 639px) {
+  body {
+    background-image: url("../Images/TMELandingMobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+  }
+  img {
+    position: absolute;
+    bottom: 2%;
+    left: 11%;
+    width: 80%;
+  }
 }
 
-img:hover {
-  filter: brightness(180%);
-  -webkit-filter: brightness(180%);
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body {
+    background-image: url("../Images/TMEBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+  }
+  img {
+    position: absolute;
+    bottom: 5%;
+    left: 5.5%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-image: url("../Images/BrickBackgroundTablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+  }
+  img {
+    position: absolute;
+    bottom: 2%;
+    left: 4%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1369px) {
+  body {
+    background-image: url("../Images/BrickBackgroundTablet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+  }
+  img {
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    width: 45%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  img:hover {
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%);
+  }
+}
+
+@media screen and (min-width: 1370px) {
+  img {
+    position: absolute;
+    bottom: 25px;
+    left: 145px;
+    width: 35%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  img:hover {
+    filter: brightness(180%);
+    -webkit-filter: brightness(180%);
+  }
 }
 /*# sourceMappingURL=Style.css.map */
