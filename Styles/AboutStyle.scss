@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+@media screen and (max-width:639px){
+
+}
+
 body{
   background-image: url("../Images/BrickBackdrop.png");
   background-repeat: repeat-y;
@@ -119,5 +123,27 @@ img:hover, img:focus{
       text-shadow: .01em .01em .20em rgb(206, 3, 3);
       color: black;
   }
+}
+.channelLinks{
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1%;
+  margin-left: 10%;
+  img{
+    width: 12vw;
+    height: 170PX;
+    padding-top: .5%;
+  }
+  UL{
+    margin-left: 25%;
+    padding-top: 10%;
+  }
+  li{
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  };
 }
   /*# sourceMappingURL=HomeStyle.css.map */
